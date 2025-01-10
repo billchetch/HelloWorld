@@ -12,6 +12,7 @@ class Program
         public string SomeField { get; set; } = String.Empty;
     }
 
+    //a comment
     public class TestDbContext : ChetchDbContext
     {
         public DbSet<Test> Tests { get; set; }
