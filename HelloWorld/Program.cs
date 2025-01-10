@@ -14,7 +14,6 @@ class Program
 
     public class TestDbContext : ChetchDbContext
     {
-        
         public DbSet<Test> Tests { get; set; }
 
         public TestDbContext() : base("test"){}
